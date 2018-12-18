@@ -1,3 +1,64 @@
-body{
-  
+body {
+  background-image: url("img/SniperG3185949130457.gif") no-repeat;
+}
+
+.player1 {
+  height: 500px;
+  color: #fff;
+}
+
+.player2 {
+  height: 500px;
+}
+
+.bt {
+  float: inherit;
+  display: block;
+  position: absolute;
+  margin-top: 400px;
+  left: 53%;
+  width: 200px;
+  transform: translateX(-50%);
+  color: #555;
+  font-family: Lato;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 300;
+  transition: background-color 0.3s, color 0.3s;
+  z-index: +1;
+}
+.die{
+  border-radius: 200px;
+  margin-top: 30px;
+  position: absolute;
+  left: 35%;
+  height: 200px;
+  width: 200px;
+  background-color: #302;
+}
+.dice{
+  width: 300px;
+  height: 130px;
+  margin-top: 280px;
+  position: absolute;
+  left: 25%;
+  background-color: #302;
+}
+.bct {
+  float: inherit;
+  display: block;
+  position: absolute;
+  margin-top: 450px;
+  left: 54%;
+  width: 200px;
+  transform: translateX(-50%);
+  color: #555;
+  font-family: Lato;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 300;
+  transition: background-color 0.3s, color 0.3s;
+  z-index: +1;
 }
