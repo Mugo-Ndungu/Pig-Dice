@@ -1,30 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="stylesheet" href="CSS/bootstrap.css">
+  <link rel="stylesheet" href="./CSS/style.css">
   <title>Pig Dice Game</title>
 </head>
+
 <body>
-  <div class="container">
+  <div class="container both">
     <div class="row">
-      <div  class="col-md-12">
+      <div class="col-md-12">
         <h1 class="text-center">PIG DICE GAME</h1>
       </div>
     </div>
     <div class="row">
-      <div class="text-center player1 col-md-6">
-        <h2>PLAYER ONE</h2>
-
+      <div class="bg-success text-center player1 col-md-6">
+        <h1>PLAYER ONE</h1>
+        <div class="die">
+          <h2>Points</h2>
+          <h1 id="p1points"></h1>
+        </div>
+        <div class="dice">
+          <h2>Total Points <br> = </h2>
+          <h3 id="totalRan1"></h3>
+        </div>
       </div>
-      <div class="text-center player2 col-md-6">
-        <h2>PLAYER TWO</h2>
-
+      <div class="bt col-sm-2">
+        <button onclick="rollDice()" id="rollDice" type="button" name="button">Roll Dice</button>
+      </div>
+      <div class="bct col-sm-2">
+        <button type="button" name="button">Hold</button>
+      </div>
+      <div class="bg-primary text-center player2 col-md-6">
+        <h1>PLAYER TWO</h1>
+        <div class="die">
+          <h2>Points</h2>
+          <h1 id="p2points"></h1>
+        </div>
+        <div class="dice">
+          <h2 >Total Points <br> = </h2>
+          <h3 id="totalRan2"></h3>
+        </div>
       </div>
     </div>
   </div>
-  <script type="text/javascript" src="JS/jQuery.js"></script>
+  <script type="text/javascript" src="JS/jquery.js"></script>
+  <script type="text/javascript" src="JS/script.js"></script>
 </body>
+
 </html>
