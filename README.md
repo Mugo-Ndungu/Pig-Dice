@@ -45,6 +45,10 @@ During the production of the app we used the following Languages
 | Click roll button | Dice rolls and numbers are generated dice rolls are added together to the round total    |
 | Player 1 total score = 50  | Winner           |
 
+## Live link
+Use this [link](https://mugo-ndungu.github.io/Pig-Dice/) to see the web-page
+
+
 ## Support and Contact Details.
 
 for any collaboration you can reach me on [email](twinnymugo@gmail.com) or Phone: 0789910017. Thank you!!.
